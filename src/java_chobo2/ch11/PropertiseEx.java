@@ -41,8 +41,7 @@ public class PropertiseEx {
 			
 			prnProperties(loadProp);
 			
-			xmlProp.loadFromXML(new FileInp
-					utStream("oupt.xml")); // 왜 xml 안만들어 지노? 
+		
 			prnProperties(xmlProp);
 			
 		} catch (IOException e) {
