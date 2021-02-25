@@ -23,8 +23,8 @@ public class UserInfoSerializableEx {
 			list.add(u1);
 			list.add(u2);
 					
-			oos.writeObject(u1);
-			oos.writeObject(u2);
+//			oos.writeObject(u1);
+//			oos.writeObject(u2);
 			oos.writeObject(list);
 			
 			System.out.println("Done.");
