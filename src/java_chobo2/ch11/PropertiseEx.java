@@ -41,7 +41,7 @@ public class PropertiseEx {
 			
 			prnProperties(loadProp);
 			
-		
+			xmlProp.loadFromXML(new FileInputStream("oupput.xml"));
 			prnProperties(xmlProp);
 			
 		} catch (IOException e) {
