@@ -20,6 +20,8 @@ public class MidStreamEx {
 	}
 
 	private static void extracted3() {
+		
+		
 		Stream<Student> std = Stream.of(
 				new Student("이자바", 3, 300),
 				new Student("김자바", 1, 200),
